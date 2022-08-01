@@ -7,7 +7,6 @@ All necessary data and estimated models are available in [this Dropbox folder](h
 
 ## Required Software and Packages
 
-`R (3.6.3)`:
 ```
 R version 4.2.0 (2022-04-22)
 Platform: x86_64-apple-darwin17.0 (64-bit)
