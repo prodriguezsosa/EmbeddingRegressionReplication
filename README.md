@@ -45,11 +45,11 @@ loaded via a namespace (and not attached):
 
 ```
 
-`Python (3.7)`:\
-- gensim\
-- sentence-transformers\
+`Python (3.7)`:
+- gensim
+- sentence-transformers
 
-* [`conText`](https://github.com/prodriguezsosa/conText) is the R software associated with this paper. It is available on [CRAN](https://cran.r-project.org/web/packages/conText/index.html). For the latest development version use:\
+* [`conText`](https://github.com/prodriguezsosa/conText) is the R software associated with this paper. It is available on [CRAN](https://cran.r-project.org/web/packages/conText/index.html). For the latest development version use:
 
 ```r
 devtools::install_github("prodriguezsosa/conText")
