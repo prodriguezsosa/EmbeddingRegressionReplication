@@ -5,7 +5,7 @@ This repository contains the replication materials for the article ["Embedding R
 
 All necessary data and estimated models are available in [this Dropbox folder](https://www.dropbox.com/sh/7al371qtr9102qq/AADKhjhYgnFCxOOQaugQloTBa?dl=0). Keep in mind the folder is quite large at 12.59 GB.
 
-## Required Software and Packages
+## Required software and packages
 
 ```
 R version 4.2.0 (2022-04-22)
@@ -48,6 +48,8 @@ loaded via a namespace (and not attached):
 `Python (3.7)`:
 - gensim
 - sentence-transformers
+
+## conText
 
 * [`conText`](https://github.com/prodriguezsosa/conText) is the R software associated with this paper. It is available on [CRAN](https://cran.r-project.org/web/packages/conText/index.html). For the latest development version use:
 
