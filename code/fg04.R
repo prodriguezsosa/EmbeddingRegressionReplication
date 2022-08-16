@@ -81,7 +81,7 @@ fg4 <- ggplot(plot_tibble, aes(x = coefficient, y = normed.estimate)) +
   labs(y = expression(paste('Norm of ', hat(beta),'s'))) +
   geom_text(aes(label=c('***', '***', '***')), position=position_dodge(width=0.9), hjust=0.5, vjust = c(0, 0, 0), size = 8) +
   coord_flip() +
-  ylim(0,0.15) +
+  ylim(0,0.6) +
   theme(axis.text.x = element_text(size=18, vjust = 0.5, margin = margin(t = 15, r = 0, b = 15, l = 0)),
         axis.text.y = element_text(size=18),
         axis.title.y = element_blank(),

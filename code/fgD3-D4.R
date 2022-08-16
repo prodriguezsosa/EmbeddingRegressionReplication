@@ -122,8 +122,8 @@ fgD3b <- ggplot(normed_betas_alc, aes(x = target, y = normed.estimate)) +
                       ymin = lower.ci,
                       ymax = upper.ci), width=.2, lwd = 0.75, position=position_dodge(.9)) + 
   ylab('Norm of party coefficient') +
-  ylim(0,0.04) +
-  geom_text(aes(label=c('***', '***', '***', '***', '***', '***')), position=position_dodge(width=0.9), hjust=0.5, vjust = normed_betas_alc$upper.ci-4, size = 8) + # based on the empirical p-values
+  #ylim(0,0.04) +
+  geom_text(aes(label=c('***', '***', '***', '***', '***', '***')), position=position_dodge(width=0.9), hjust=0.5, vjust = normed_betas_alc$upper.ci-2, size = 8) + # based on the empirical p-values
   theme(panel.background = element_blank(),
         axis.ticks.x = element_blank(),
         axis.text.x = element_text(size=18, vjust = 0.5, hjust = 1, margin = margin(t = 0, r = 0, b = 15, l = 0), angle = 90),
@@ -189,7 +189,7 @@ fgD4b <- ggplot(normed_betas_alc_5, aes(x = target, y = normed.estimate)) +
                     ymin = lower.ci,
                     ymax = upper.ci), width=.2, lwd = 0.75, position=position_dodge(.9)) + 
   ylab('Norm of party coefficient') +
-  geom_text(aes(label=c('*', '**', '', '', '', '*')), position=position_dodge(width=0.9), hjust=0.5, vjust = normed_betas_alc_5$upper.ci-8.5, size = 8) + # based on the empirical p-values
+  geom_text(aes(label=c('**', '', '', '', '**', '**')), position=position_dodge(width=0.9), hjust=0.5, vjust = normed_betas_alc_5$upper.ci-7, size = 8) + # based on the empirical p-values
   theme(panel.background = element_blank(),
         axis.ticks.x = element_blank(),
         axis.text.x = element_text(size=18, vjust = 0.5, hjust = 1, margin = margin(t = 0, r = 0, b = 15, l = 0), angle = 90),
