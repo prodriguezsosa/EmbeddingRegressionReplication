@@ -23,7 +23,7 @@ attached base packages:
 
 other attached packages:
  [1] SnowballC_0.7.0           hunspell_3.0.1            zoo_1.8-10                reticulate_1.25           quanteda.textmodels_0.9.4
- [6] cluster_2.1.3             text2vec_0.6.1            conText_1.3.1             tidyr_1.2.0               stargazer_5.2.3          
+ [6] cluster_2.1.3             text2vec_0.6.1            conText_1.3.2             tidyr_1.2.0               stargazer_5.2.3          
 [11] ggplot2_3.3.6             progress_1.2.2            readtext_0.81             pbapply_1.5-0             quanteda_3.2.1           
 [16] stringr_1.4.0             dplyr_1.0.9              
 
